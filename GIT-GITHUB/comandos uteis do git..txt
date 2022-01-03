@@ -7,3 +7,9 @@ git add ->  adiciona uma alteração no diretório ativo à área de staging
 git status -> exibe as condições do diretório de trabalho e da área de staging
 
 git commit -m "primeiro commit" -> cria o commit e coloca a mensagem do mesmo
+
+git branch -M "main" -> muda o nome da branch principal de master para main
+
+git remote add origin <link do seu repositorio no github> -> cria uma conexão entre o diretorio local(pc) e um diretorio remoto(github)
+
+git push -U origin main -> empurra os arquivos para o diretorio remoto
